@@ -25,7 +25,7 @@ sudo curl -sL https://raw.githubusercontent.com/dpangestuw/C9-Installer/main/ins
 You can run sleepless (24x7) IDE using forever
 
 ```sh
-sudo forever start ~/c9sdk/server.js --port 8080 --listen 0.0.0.0 --auth <username>:<password>
+sudo forever start /c9sdk/server.js --port 8080 --listen 0.0.0.0 --auth <username>:<password>
 ```
 
 
