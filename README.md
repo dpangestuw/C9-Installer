@@ -12,7 +12,7 @@ Requirements
 Install cURL [IMPORTANT]
 
 ```sh
-$ sudo apt-get install curl -y
+sudo apt-get install curl -y
 ```
 
 Then run the installer command
