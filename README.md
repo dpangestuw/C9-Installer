@@ -1,4 +1,4 @@
-# Cloud9 Auto Installer
+# C9 Auto Installer
 
 Requirements
 
@@ -17,7 +17,7 @@ $ sudo apt-get install curl -y
 
 Then run the installer command
 ```sh
-$ sudo curl -sL https://raw.githubusercontent.com/bolehjuga/c9installer/master/installer.sh -o c9installer.sh && sudo bash c9installer.sh
+sudo curl -sL https://raw.githubusercontent.com/dpangestuw/C9-Installer/main/installer.sh -o c9installer.sh && sudo bash c9installer.sh
 ```
 
 #### Running IDE
@@ -25,7 +25,7 @@ $ sudo curl -sL https://raw.githubusercontent.com/bolehjuga/c9installer/master/i
 You can run sleepless (24x7) IDE using forever
 
 ```sh
-$ sudo forever start ~/c9sdk/server.js -w /var/www --port 8080 --listen 0.0.0.0 --auth <username>:<password>
+sudo forever start ~/c9sdk/server.js --port 8080 --listen 0.0.0.0 --auth <username>:<password>
 ```
 
 
