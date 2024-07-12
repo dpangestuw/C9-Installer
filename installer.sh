@@ -3,7 +3,7 @@ sudo apt-get update -y
 sudo apt-get install python -y
 sudo apt-get install build-essential -y
 sudo apt-get install git -y 
-curl -sL https://deb.nodesource.com/setup_20.x -o ~/nodesource_setup.sh
+curl -sL https://deb.nodesource.com/setup_18.x -o ~/nodesource_setup.sh
 sudo bash ~/nodesource_setup.sh
 sudo apt-get install nodejs -y
 sudo ufw allow 8080
